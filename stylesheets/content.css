@@ -1,3 +1,6 @@
+article h1, article h2, article h3, article h4, article p, article ul, article blockquote, article ol {
+  width: 700px; margin: 0 auto;
+}
 article img + article ul {
   margin-top: 77px;
 }
