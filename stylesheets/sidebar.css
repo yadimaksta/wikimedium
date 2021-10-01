@@ -6,6 +6,7 @@ nav {
   padding: 30px;
   box-sizing: border-box;
   opacity: .1;
+  /* background-color: white; */
   transition: all .1s ease;
 }
 nav:hover {
