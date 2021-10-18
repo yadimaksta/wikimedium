@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="stylesheets/style.css">
+  <title>О проекте</title>
+  <style media="screen">
+    body {
+      width: 1440px;
+      margin: 0 auto;
+      background: white;
+      height: 3252px;
+      display: block;
+      position: relative;
+    }
+    body::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      background: url('images/1440.jpg');
+      height: 3252px;
+      display: block;
+      opacity: .2;
+    }
+    html {
+      position: relative;
+      height: 100%;
+    }
+    section {
+      display: flex;
+      justify-content: space-between;
+      margin-left: 30px;
+    }
+    section div {
+      width: 50%;
+      overflow: hidden;
+    }
+    section h1 {
+      font-size: 40px;
+      margin-top: 60px;
+      margin-bottom: 38px;
+
+    }
+    section p {
+      font-size: 26px;
+      line-height: 1.5;
+
+    }
+    .text {
+      width: 520px;
+      margin: 0 auto;
+    }
+    section div:nth-of-type(2) h1;
+    section div:nth-of-type(2) p  {
+      margin-left: 30px;
+    }
+    section div:nth-of-type(1) img {
+      margin-top: 34px;
+    }
+    section:nth-of-type(3) div:nth-of-type(2) img {
+      margin-top: 60px;
+    }
+    .one {
+      margin-top: 72px;
+    }
+    .two {
+      margin-top: 20px;
+    }
+    .bottom_block {
+      width: 800px;
+      display: block;
+      margin: 0 auto;
+      text-align: center;
+      padding-top: 80px;
+    }
+    section a {
+      border: 1px solid black;
+      margin-top: 90px;
+      text-decoration: none;
+    }
+    .btn {
+      padding: 16px 52px;
+      background: white;
+      border-radius: 4px;
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+  <div class="menubar">
+    <a href="index.html"><img src="images/logo.svg" alt=""></a>
+    <a href="about.html">О проекте</a>
+  </div>
+  <section class="one">
+    <div class="text">
+      <h1>Наглядный пример, чтобы&nbsp;учиться&nbsp;веб-вёрстке</h1>
+      <p>Разработан для изучения основ веб-вёрстки, языка гипертекстовой разметки HTML и&nbsp;каскадных таблиц стилей CSS</p>
+    </div>
+    <div class="">
+      <img src="images/about1.png" alt="">
+    </div>
+  </section>
+  <section class="two">
+    <div class="">
+      <img src="images/about2.png" alt="">
+    </div>
+    <div class="">
+      <h1>С нуля до первого сайта под&nbsp;компьютеры, смартфоны и&nbsp;планшеты</h1>
+      <p>Чтобы начать изучать веб-верстку на этом проекте, не требуется каких-то специальных знаний, кроме базового умения пользоваться компьютером</p>
+    </div>
+  </section>
+  <section class="one">
+    <div class="text">
+      <h1>Реальный проект, реальный рабочий процесс</h1>
+      <p>Обучение приближению к работе в реальной жизни, работа разбита на этапы от типографики, создания меню и использования эффектов, до адаптации под мобильные усройства и использвания javaScript скриптов</p>
+    </div>
+    <div class="">
+      <img src="images/about3.png" alt="">
+    </div>
+  </section>
+  <section class="bottom_block">
+    <h1>Наглядный пример, чтобы&nbsp;учиться&nbsp;веб-вёрстке</h1>
+    <p>Разработан для изучения основ веб-вёрстки, языка гипертекстовой разметки HTML и&nbsp;каскадных таблиц стилей CSS</p>
+    <a class="btn" href="#">Исходный код на GitHub</a>
+    <a class="btn" href="#">Курс в Школе Дизайна</a>
+  </section>
+</body>
+</html>
