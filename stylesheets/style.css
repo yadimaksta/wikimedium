@@ -1,5 +1,6 @@
 @import 'reset.css';
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 @import 'layout.css';
-@import "sidebar.css";
 @import "content.css";
+@import "sidebar.css";
+@import "responsive.css";
