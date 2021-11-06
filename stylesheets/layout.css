@@ -2,25 +2,33 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; 
 }
 a { color: inherit;
 }
-/* h1, h2, h3, h4, p, ul, blockquote, ol {
-  width: 700px; margin: 0 auto;
-} */
+
 .menubar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 50px;
   padding: 0 20px;
-  border-bottom: 1px solid #aaa;
-  box-shadow: 0 4px 12px 2px rgba(0, 0, 0, 0.5);
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2);
   background: white;
 }
 .menubar img {
   height: 80%;
   width: auto;
+  transition: all .1s ease;
+}
+.menubar img:hover {
+  opacity: .7;
+  transition: all .1s ease;
 }
 .menubar a {
   height: 20px;
   text-decoration: none;
   color: #aaa;
+  transition: all .1s ease;
+}
+.menubar a:hover {
+  opacity: .7;
+  transition: all .1s ease;
 }
