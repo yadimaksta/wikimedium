@@ -24,6 +24,8 @@ body {
   padding-bottom: 10px;
 }
 .index-item h1 {
+  font-family: 'PT Sans Caption', sans-serif;
+  color: rgba(0, 0, 0, .8);
   font-size: 32px;
   line-height: 45px;
   font-weight: bold;
