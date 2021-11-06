@@ -78,13 +78,13 @@
   .index-item {
     display: block;
     position: relative;
-    width: calc(100% - 20px);
+    width: calc(100% - 40px);
     margin: 0 auto;
     padding: 40px 0px;
     border: none;
     box-shadow: none;
     border-radius: 0px;
-    transition: all .5s ease;
+    transition: none;
   }
   .index-item img {
     height: 300px;
@@ -92,15 +92,19 @@
   }
   .index-item h1 {
     font-size: 32px;
-    line-height: 38px;
+    line-height: 34px;
     font-weight: bold;
     padding-bottom: 12px;
   }
   .index-item p {
-    font-size: 22px;
-    line-height: 32px;
+    font-size: 18px;
+    line-height: 28px;
     color: rgba(0, 0, 0, 0.5);
   }
+  .index-item:hover {
+      box-shadow: none;
+      transition: none;
+    }
 
   /* СТАТЬЯ */
   article > * {
