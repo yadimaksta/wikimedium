@@ -18,10 +18,6 @@ a { color: inherit;
   width: auto;
   transition: all .1s ease;
 }
-.menubar img:hover {
-  opacity: .8;
-  transition: all .1s ease;
-}
 .menubar a {
   height: 20px;
   text-decoration: none;
