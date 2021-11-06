@@ -19,7 +19,7 @@ a { color: inherit;
   transition: all .1s ease;
 }
 .menubar img:hover {
-  opacity: .7;
+  opacity: .8;
   transition: all .1s ease;
 }
 .menubar a {
